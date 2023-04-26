@@ -1,12 +1,11 @@
 # IN application vars
-APP_URL=http://in.localhost:8003
-APP_KEY=<insert your generated key in here>
+APP_URL=http://in.home.local
+APP_KEY=jOzaF/I55UnCur3oJCwY4z2XDZHlIBJcuK4Krc/Im1Q=
 APP_DEBUG=true
 REQUIRE_HTTPS=false
 PHANTOMJS_PDF_GENERATION=false
 PDF_GENERATOR=snappdf
 TRUSTED_PROXIES='*'
-
 
 QUEUE_CONNECTION=database
 
@@ -39,7 +38,3 @@ MYSQL_ROOT_PASSWORD=ninjaAdm1nPassword
 MYSQL_USER=ninja
 MYSQL_PASSWORD=ninja
 MYSQL_DATABASE=ninja
-
-# V4 env vars
-# DB_STRICT=false
-# APP_CIPHER=AES-256-CBC
